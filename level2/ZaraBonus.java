@@ -17,7 +17,7 @@ public class ZaraBonus {
         double totalOldSalary = 0;
         double totalNewSalary = 0;
 
-        // Input with validation
+        
         for (int i = 0; i < SIZE; i++) {
             System.out.println("\nEnter details for Employee " + (i + 1));
 
@@ -35,7 +35,7 @@ public class ZaraBonus {
             }
         }
 
-        // Calculation
+      
         for (int i = 0; i < SIZE; i++) {
             if (years[i] > 5)
                 bonus[i] = salary[i] * 0.05;
